@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+	<head>
+	<meta charset='UTF-8'>
+	<title>Análise de Eleitores</title>
+	<link rel='stylesheet' href='estilo.css'>
+	</head>
+<body>
+	<header>
+		<h1>Eleições</h1>
+	</header>
+		
+		<section>
+		<div class="texto campo"  >
+			<label for="nome">
+			Nome: <input type='text' name='nome' id='nome' placeholder="Nome Completo" >
+			</label>
+		</div>
+		<div class='campo'>
+		<label>Possue pendências com a justiça eleitoral?</label>
+			<label for="s">
+			<input type='radio' name='pendencias' id='s'> Sim
+			</label>
+			
+			<label for='n'>
+			<input type='radio' name='pendencias' id='n'> Não
+			</label>
+			
+			<label for='ns'>
+			<input type='radio' name='pendencias' id='ns' checked> Não sei informar
+			</label>
+		</div>
+		<div class="texto campo">
+			<label for='idade'>
+			Idade: <input type='number' id='idade' >
+			</label>
+		</div>
+		 <button class='button' type='submit' id='btn'>Confirmar</button>
+		 
+		 <div class="resultado campo" id="res">
+		 <!-- <div class='resultadoNome'>Nome</div>
+		 <p>Texto aqui</p> -->
+		<!--  <div class='resultadoLink'></div> -->
+		 </div>
+		</section>
+		
+		
+		
+	<footer>
+		
+	</footer>
+<script src='script.js'></script>
+</body>
+</html>

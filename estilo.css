@@ -1,0 +1,104 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	background:#f2f3f5;
+	font-size:17px;
+	font-family:Malgun Gothic;
+	font-weight:bolder;
+	}
+header{
+	text-align:center;
+	color:#15244d;
+	padding:15px;
+}
+section{
+	color:#15244d;
+	width:50%;
+	padding:10px;
+	margin:auto;
+
+	
+}
+label{
+	display:block;
+	padding:5px;
+}
+.campo{
+	margin:auto;
+	width:600px;
+	padding:10px;
+	background:white;
+	margin-bottom:10px;
+	box-shadow:2px 2px 5px #afafaf;	
+}
+input[type='text'],[type='number']{
+	border:none;
+	border-bottom:solid 0.1px #afafaf;
+	margin:auto;	
+	width:100%;
+	padding:5px;
+	padding-right:0;
+	font-family:Malgun Gothic;
+	font-size:15px;
+	outline:none;
+		
+}
+input[type='number']{
+	width:60px;
+}
+input::placeholder{
+	color:#d2d6d6;
+}
+.texto input:focus{
+	background:white;
+}
+button{
+	margin:auto;
+	margin-top:25px;
+	display:block;/*para ficar centralizado*/
+	width:100px;
+	height:45px;
+	padding:5px;	
+	border:solid  1px;
+	background:#15244d;
+	color:white;
+	font-size:15px;
+}
+button:hover{
+	box-shadow:inset 3px 3px 8px #030b21;
+	cursor:pointer;
+}
+.resultado{
+	margin-top:20px;
+	height:140px;
+	text-align:center;
+	font-weight:lighter;
+	
+}
+
+.resultadoNome{
+	font-size:20px;	
+	margin:10px;
+}
+.resultadoLink{
+	margin:10px;
+	
+}
+.resultadoLink a{
+	color:red;
+	text-decoration:none;
+	font-weight:bold;
+	font-size:12px;
+}
+
+.resultado{
+	display:none;
+}
+.resultado p{
+	font-weight:bold;
+	font-size:22px;
+}
+
+
